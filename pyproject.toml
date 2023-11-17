@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61.0", "SpeechRecognition==3.10.0", "pydub==0.25.1"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "copypy"
-version = "0.0.3"
+version = "0.0.4"
 authors = [{ name = "Juan Rojas", email = "jfernandorojasc@gmail.com" }]
 description = "Video Transcription"
 readme = "README.md"
