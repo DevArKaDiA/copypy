@@ -15,7 +15,7 @@ def extract_text(audio: BinaryIO) -> str:
     r = speech_recognition.Recognizer()
     with speech_recognition.AudioFile(audio) as source:
         audio_data = r.record(source)
-    return r.recognize_google(audio_data, language="es-ES")
+    return r.recognize_whisper(audio_data, language="es")
 
 
 def transcribe_video(video_path: str, output_path: str):
