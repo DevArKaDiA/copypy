@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools>=61.0", "SpeechRecognition==3.10.0", "pydub==0.25.1"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "copypy"
-version = "0.0.4"
+version = "0.0.5"
 authors = [{ name = "Juan Rojas", email = "jfernandorojasc@gmail.com" }]
 description = "Video Transcription"
 readme = "README.md"
@@ -14,6 +14,8 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
+dependencies = ["SpeechRecognition==3.10.0", "pydub==0.25.1"]
 
 [project.urls]
 "Homepage" = "https://github.com/DevArKaDiA/transpy"
