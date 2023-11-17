@@ -10,13 +10,13 @@ This script extracts audio from a video file, transcribes the audio into text us
 You can install these packages using pip:
 
 ```bash
-pip install pydub speech_recognition
+pip install copypy
 ```
 
 ## Usage
 
 ```bash
-python transpy.py <video_path> <output_path>
+python -m copypy <video_path> <output_path>
 ```
 
 Where:
