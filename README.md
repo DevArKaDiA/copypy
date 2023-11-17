@@ -1,4 +1,4 @@
-# Video Transcription Script
+# Video Transcription Script - COPYPy
 
 This script extracts audio from a video file, transcribes the audio into text using Google's Speech Recognition API, and writes the transcribed text to a file.
 
