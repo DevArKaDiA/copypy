@@ -1,5 +1,5 @@
 import sys
-from src.copypy.copypy import transcribe_video
+from copypy.copypy import transcribe_video
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
