@@ -1,6 +1,5 @@
 from typing import BinaryIO, cast
 from pydub import AudioSegment
-import sys
 import speech_recognition
 
 
@@ -24,10 +23,3 @@ def transcribe_video(video_path: str, output_path: str):
     text = extract_text(audio)
     with open(output_path, "w") as file:
         file.write(text)
-
-
-if __name__ == "__main__":
-    if len(sys.argv) < 3:
-        print("Usage: python main.py <video_path> <output_path>")
-        sys.exit(1)
-    transcribe_video(sys.argv[1], sys.argv[2])
