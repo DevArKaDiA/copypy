@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: copypy
+Version: 0.0.1
+Summary: Video Transcription
+Author-email: Juan Rojas <jfernandorojasc@gmail.com>
+Project-URL: Homepage, https://github.com/DevArKaDiA/transpy
+Project-URL: Bug Tracker, https://github.com/DevArKaDiA/transpy
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Video Transcription Script - COPYPy
+
+This script extracts audio from a video file, transcribes the audio into text using Google's Speech Recognition API, and writes the transcribed text to a file.
+
+## Dependencies
+
+- pydub
+- speech_recognition
+
+You can install these packages using pip:
+
+```bash
+pip install pydub speech_recognition
+```
+
+## Usage
+
+```bash
+python transpy.py <video_path> <output_path>
+```
+
+Where:
+
+- `<video_path>` is the path to the video file you want to transcribe.
+- `<output_path>` is the path where the transcribed text will be written to.
+
+The script currently supports MP4 video files and transcribes audio to Spanish. You can modify the script to support other video formats or languages.
+
+```
+
+Next, you might want to add more details to your README, such as a section on how to contribute to your project, or a section detailing any known issues or limitations of your script.
+```

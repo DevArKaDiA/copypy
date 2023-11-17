@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/copypy/__init__.py
+src/copypy/copypy.py
+src/copypy.egg-info/PKG-INFO
+src/copypy.egg-info/SOURCES.txt
+src/copypy.egg-info/dependency_links.txt
+src/copypy.egg-info/top_level.txt
